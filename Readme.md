@@ -18,27 +18,27 @@ This repo uses the tesseract ocr recognition engine to extract the credentials f
    Install tesseract using your package manager relative to your distro.
 
    #### Debian/Ubuntu
-    ```bash
+ 
     sudo apt-get install tesseract-ocr
-    ```
+
    #### Fedora
-    ```
+
     sudo dnf install tesseract
-    ```
+
    #### Arch
-    ```bash
+
     sudo pacman -S tesseract
-    ```
+
 
 **3.** Make sure you have installed the necessary dependencies.
-    ```bash
+
     npm install
-    ```
+
 
 **4.** Run the file using this command 
-    ```bash
+
     cd src && scrape_with_puppeteer.js
-    ```
+ 
 
 ## Dependencies
 Ensure you have the following dependencies installed in the system:
