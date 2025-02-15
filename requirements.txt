@@ -1,7 +1,0 @@
-pytesseract
-Pillow
-requests
-numpy
-beautifulsoup4
-
-
